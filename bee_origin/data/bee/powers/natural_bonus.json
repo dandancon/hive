@@ -28,7 +28,7 @@
 			}
 			]
 		},
-		"chance": 0.4
+		"chance": 0.25
 	},
 	"interval": 20,
 	"condition": {
