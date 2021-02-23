@@ -10,4 +10,4 @@ Powers + Descriptions:
 - Homebody: Being exposed to the night sky will give you a status debuff.
 - Floral Diet: Regular food items are inedible, standing is 'small flowers' will replenish your saturation.
 
-//Lol this took me a week to do, hope you enjoy:>
+Cute Tip: Try standing in 'tall flowers'. Maybe something good will happen:>
