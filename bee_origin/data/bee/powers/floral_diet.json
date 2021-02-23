@@ -1,0 +1,29 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:feed",
+		"food": 4,
+		"saturation": 1.2
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:in_block",
+		"block_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:in_tag",
+					"tag": "minecraft:small_flowers"
+				},
+				{
+					"type": "origins:offset",
+					"y" : 1,
+					"type": "origins:in_tag",
+					"tag": "minecraft:small_flowers"
+				}
+			]
+		}
+	},
+	"name": "Floral Diet",
+	"description": "You prefer small flowers to actual food."
+}

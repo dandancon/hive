@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.max_health",	
+		"value": -10.0,
+		"operation": "addition"
+	},
+	"name": "Delicate Wings",
+	"description": "You have a fragile disposition, having only five hearts of health. You may want to avoid trouble. And water. Avoid water."
+}

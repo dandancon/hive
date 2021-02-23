@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"origins:arthropod",
+		"bee:pollinator",
+		"bee:sting",
+		"bee:fumble",
+		"bee:bumble",
+		"bee:delicate_wings",
+		"bee:cannae_swim",
+		"bee:homebody",
+		"bee:picky_eater",
+		"bee:floral_diet",
+		"bee:natural_bonus"
+	],
+	"icon": "minecraft:honeycomb",
+	"order": 5,
+	"impact": 3,
+	"name": "Apian",
+	"description":"These buzzing busybodys just want to work well, and go home on time."
+}

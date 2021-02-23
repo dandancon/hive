@@ -1,0 +1,19 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:slow_falling",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false,
+			"duration": 20
+		}
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:origin",
+		"origin": "bee:apian"
+	},
+	"hidden": true
+}

@@ -1,0 +1,53 @@
+{
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:chance",
+		"action": {
+			"type": "origins:apply_effect",
+			"effects": [
+			{
+			"effect": "minecraft:absorption",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true,
+			"duration": 200
+			},
+			{
+			"effect": "minecraft:resistance",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true,
+			"duration": 200
+			},
+			{
+			"effect": "minecraft:regeneration",
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": true,
+			"duration": 200
+			}
+			]
+		},
+		"chance": 0.4
+	},
+	"interval": 20,
+	"condition": {
+		"type": "origins:in_block",
+		"block_condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:in_tag",
+					"tag": "minecraft:tall_flowers"
+				},
+				{
+					"type": "origins:offset",
+					"y" : 1,
+					"type": "origins:in_tag",
+					"tag": "minecraft:tall_flowers"
+				}
+			]
+		}
+	},
+	"hidden": true
+}
